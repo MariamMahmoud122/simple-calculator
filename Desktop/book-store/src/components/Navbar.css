@@ -1,0 +1,93 @@
+/* Navbar background: بنفسجي + نبيتي */
+.navbar {
+  background: linear-gradient(135deg, #6a0dad, #800020);
+  padding: 15px 30px;
+  font-weight: bold;
+}
+
+/* Links */
+.navbar .nav-link {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: #ff6b81; /* لون أفتح للظهور على الخلفية */
+}
+
+/* Brand */
+.navbar .navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Register */
+.register {
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.register:hover {
+  color: #ff6b81;
+}
+
+/* Cart */
+.cart-icon {
+  color: #fff;
+  cursor: pointer;
+}
+.cart-icon:hover {
+  color: #ff6b81;
+}
+
+/* Cart badge */
+.cart-count {
+  font-size: 0.7rem;
+  padding: 3px 6px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .d-flex {
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+/* Navbar Links */
+.navbar .nav-link {
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;  /* ✅ خلي الماوس يبقى سهم */
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: #ff6b81;
+}
+
+/* Register */
+.register {
+  color: #fff;
+  cursor: pointer;  /* ✅ مهم */
+  transition: 0.3s;
+}
+
+/* Cart */
+.cart-icon {
+  color: #fff;
+  cursor: pointer;  /* ✅ خلي الماوس سهم */
+}
+
+.cart-icon:hover {
+  color: #ff6b81;
+}
+
+/* أي زر آخر في الصفحة */
+.btn, .shop-btn, .send-btn, .nos {
+  cursor: pointer;  /* ✅ كل الأزرار يبقى السهم */
+}

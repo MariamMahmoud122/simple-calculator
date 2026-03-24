@@ -1,0 +1,16 @@
+.hero-container {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.typing-text span {
+  opacity: 0;
+  display: inline-block;
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
